@@ -44,7 +44,7 @@
         <entry file="file://$PROJECT_DIR$/src/data-validation-tests.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -61,8 +61,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/validator_snils.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+            <state relative-caret-position="320">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -146,7 +146,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1655348688103" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1655348739167" />
     <property name="last_opened_file_path" value="$USER_HOME$/ideaproj" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -175,7 +175,7 @@
       <updated>1655316371101</updated>
       <workItem from="1655316375850" duration="949000" />
       <workItem from="1655318938893" duration="476000" />
-      <workItem from="1655344557321" duration="3927000" />
+      <workItem from="1655344557321" duration="4258000" />
     </task>
     <task id="LOCAL-00001" summary="second commit: fixing">
       <created>1655316456836</created>
@@ -296,11 +296,32 @@
       <option name="project" value="LOCAL" />
       <updated>1655348502518</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="function validateSnils: validate a data (isNull?)">
+      <created>1655348624583</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1655348624583</updated>
+    </task>
+    <task id="LOCAL-00019" summary="function validateSnils: validate a data (use pattern of integer characters for 0 to 9)">
+      <created>1655348722676</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1655348722676</updated>
+    </task>
+    <task id="LOCAL-00020" summary="function validateSnils: validate a data (length of an input data is 11 number of characters)">
+      <created>1655348801742</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1655348801742</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5352000" />
+    <option name="totallyTimeSpent" value="5683000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -399,13 +420,17 @@
     <MESSAGE value="verstka: download scripts for jquery and qunit" />
     <MESSAGE value="css: add css style" />
     <MESSAGE value="function validateSnils: write a validator of a data's type (number or string)" />
-    <option name="LAST_COMMIT_MESSAGE" value="function validateSnils: write a validator of a data's type (number or string)" />
+    <MESSAGE value="function validateSnils: validate a data (isNull?)" />
+    <MESSAGE value="function validateSnils: validate a data (use pattern of integer characters for 0 to 9)" />
+    <MESSAGE value="function validateSnils: validate a data (length of an input data is 11 number of character)" />
+    <MESSAGE value="function validateSnils: validate a data (length of an input data is 11 number of characters)" />
+    <option name="LAST_COMMIT_MESSAGE" value="function validateSnils: validate a data (length of an input data is 11 number of characters)" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/data-validation-tests.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
@@ -446,8 +471,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/validator_snils.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        <state relative-caret-position="320">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
