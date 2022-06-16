@@ -3,7 +3,7 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="1439c10e-a80b-4e41-b698-423c002286f9" name="sprinthost" url="http://ftp.f0645897.xsph.ru">
-        <fileTransfer host="ftp.f0645897.xsph.ru" port="21" rootFolder="/domains/f0645897.xsph.ru/public_html/Patient_SNILS">
+        <fileTransfer host="ftp.f0645897.xsph.ru" port="21" rootFolder="/domains/f0645897.xsph.ru/public_html/Validator">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
