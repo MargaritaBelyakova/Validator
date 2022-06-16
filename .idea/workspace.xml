@@ -25,8 +25,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/validator_snils_.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1343">
-              <caret line="79" selection-start-line="79" selection-end-line="79" />
+            <state relative-caret-position="456">
+              <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -153,7 +153,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1655349677348" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1655349793988" />
     <property name="last_opened_file_path" value="$USER_HOME$/ideaproj" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -182,7 +182,7 @@
       <updated>1655316371101</updated>
       <workItem from="1655316375850" duration="949000" />
       <workItem from="1655318938893" duration="476000" />
-      <workItem from="1655344557321" duration="5019000" />
+      <workItem from="1655344557321" duration="5264000" />
     </task>
     <task id="LOCAL-00001" summary="second commit: fixing">
       <created>1655316456836</created>
@@ -345,11 +345,25 @@
       <option name="project" value="LOCAL" />
       <updated>1655349424061</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="function validateSnils_: validate a data and output in massage (var) for div">
+      <created>1655349747128</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1655349747128</updated>
+    </task>
+    <task id="LOCAL-00025" summary="function validateSnils_: error description and output through jquery">
+      <created>1655349839963</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1655349839963</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6444000" />
+    <option name="totallyTimeSpent" value="6689000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -431,8 +445,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="second commit: fixing" />
-    <MESSAGE value="verstka: add QUnitTest_SNILS.html first structure" />
     <MESSAGE value="verstka: add QUnitTest_SNILS.html first structure2" />
     <MESSAGE value="verstka: add QUnitTest_SNILS.html first structure3 (save)" />
     <MESSAGE value="verstka: update QUnitTest_SNILS.html: add lib with validator, tests data and css qunit" />
@@ -455,7 +467,10 @@
     <MESSAGE value="function validateSnils: validate a data (a sum of digits SNILS for check number)" />
     <MESSAGE value="function validateSnils: validate a data (if &lt; 100: control number is equal to this sum; if = 100: control number is 0;if &gt; 100: calculate the remainder of the division by 101:if = 100: 0; otherwise: calculated remainder of the division.)" />
     <MESSAGE value="function validateSnils: validate a data (Compare the control number with the two lower digits of the SNILS. If they are equal: return correct result)" />
-    <option name="LAST_COMMIT_MESSAGE" value="function validateSnils: validate a data (Compare the control number with the two lower digits of the SNILS. If they are equal: return correct result)" />
+    <MESSAGE value="function validateSnils: validate a data and output in massage (var) for div" />
+    <MESSAGE value="function validateSnils_: validate a data and output in massage (var) for div" />
+    <MESSAGE value="function validateSnils_: error description and output through jquery" />
+    <option name="LAST_COMMIT_MESSAGE" value="function validateSnils_: error description and output through jquery" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/data-validation-tests.html">
@@ -509,8 +524,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/validator_snils_.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1343">
-          <caret line="79" selection-start-line="79" selection-end-line="79" />
+        <state relative-caret-position="456">
+          <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
