@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" serverName="sprinthost">
+  <component name="PublishConfigData" serverName="sprinthost" uploadOnCheckin="1439c10e-a80b-4e41-b698-423c002286f9">
     <serverData>
       <paths name="sprinthost">
         <serverdata>
           <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/" local="$PROJECT_DIR$" web="/Validator/" />
+            <mapping local="" />
           </mappings>
         </serverdata>
       </paths>
     </serverData>
+    <option name="myUploadOnCheckinName" value="sprinthost" />
   </component>
 </project>
