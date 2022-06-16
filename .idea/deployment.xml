@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" serverName="github" uploadOnCheckin="405078f5-c1a6-4593-8a07-642a18b55458">
+  <component name="PublishConfigData" serverName="sprinthost" uploadOnCheckin="405078f5-c1a6-4593-8a07-642a18b55458">
     <serverData>
-      <paths name="github">
+      <paths name="sprinthost">
         <serverdata>
           <mappings>
-            <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
-            <mapping local="" />
+            <mapping local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>

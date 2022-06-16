@@ -2,8 +2,13 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="405078f5-c1a6-4593-8a07-642a18b55458" name="github" url="https://github.com/MargaritaBelyakova/IVT9X/tree/main">
-        <fileTransfer port="0" accessType="LOCAL" />
+      <webServer id="1439c10e-a80b-4e41-b698-423c002286f9" name="sprinthost" url="http://ftp.f0645897.xsph.ru">
+        <fileTransfer host="ftp.f0645897.xsph.ru" port="21" rootFolder="/domains/f0645897.xsph.ru/public_html/Patient_SNILS">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
       </webServer>
     </option>
   </component>
