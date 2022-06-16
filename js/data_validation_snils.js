@@ -21,4 +21,13 @@ QUnit.test('Snils', function (assert) {
         ['08765430301', false, 4]//25
     ]);
 
+    for (var i in data) {
+        var error = {
+            code: null,
+            message: null
+        };
+        assert.ok(validateSnils(data[i][0], error) === data[i][1], ['1)', i, data[i][0]].join(' '));
+        assert.ok(error.code === data[i][2], ['2)', i, data[i][2]].join(' '));
+    }
+
 });
