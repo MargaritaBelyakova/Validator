@@ -21,6 +21,15 @@ function validateSnils(snils, error) {
         for (var i = 0; i < 9; i++) {
             sum += parseInt(snils[i]) * (9 - i);
         }
+        var checkDigit = 0;
+        if (sum < 100) {
+            checkDigit = sum;
+        } else if (sum > 101) {
+            checkDigit = parseInt(sum % 101);
+            if (checkDigit === 100) {
+                checkDigit = 0;
+            }
+        }
 
     }
 
