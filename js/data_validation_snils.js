@@ -16,7 +16,7 @@ function getTests(errorCodeForZero) {
 }
 
 QUnit.test('Snils', function (assert) {
-    var data = [].concat([
+    var data = [].concat(getTests(3), [
         //10
         ['dfghjghfiuy', false, 2],
         ['0000000000', false, 3],
