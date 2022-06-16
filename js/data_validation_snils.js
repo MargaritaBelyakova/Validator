@@ -1,5 +1,20 @@
 //data_validation_snils.js
 
+function getTests(errorCodeForZero) {
+    return [
+        [null, false, 1],
+        [' ', false, 2],
+        [0, false, errorCodeForZero],
+        [0.0, false, errorCodeForZero],
+        ['0', false, errorCodeForZero],
+        ['0.0', false, 2],
+        [1, false, errorCodeForZero],
+        [[], false, 1],
+        ['a123', false, 2],
+        ['123-', false, 2]
+    ];//0-9 первоначальные тесты с ошибками
+}
+
 QUnit.test('Snils', function (assert) {
     var data = [].concat([
         //10
