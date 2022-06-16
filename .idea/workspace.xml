@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="464f2212-a6ae-404e-9f22-3d0e5f034d5d" name="Default Changelist" comment="" />
+    <list default="true" id="464f2212-a6ae-404e-9f22-3d0e5f034d5d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/validator_snils_.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/validator_snils_.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,9 +22,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/validator_snils_.js">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1343">
+              <caret line="79" selection-start-line="79" selection-end-line="79" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -55,11 +65,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/validator_snils.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="204">
+              <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -86,11 +96,11 @@
       <list>
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/data_validation_snils.js" />
-        <option value="$PROJECT_DIR$/js/validator_snils_.js" />
         <option value="$PROJECT_DIR$/src/QUnitTest_SNILS.html" />
         <option value="$PROJECT_DIR$/css/patient.css" />
         <option value="$PROJECT_DIR$/src/data-validation-tests.html" />
         <option value="$PROJECT_DIR$/js/validator_snils.js" />
+        <option value="$PROJECT_DIR$/js/validator_snils_.js" />
       </list>
     </option>
   </component>
@@ -143,7 +153,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1655349306048" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1655349612484" />
     <property name="last_opened_file_path" value="$USER_HOME$/ideaproj" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -172,7 +182,7 @@
       <updated>1655316371101</updated>
       <workItem from="1655316375850" duration="949000" />
       <workItem from="1655318938893" duration="476000" />
-      <workItem from="1655344557321" duration="4715000" />
+      <workItem from="1655344557321" duration="5019000" />
     </task>
     <task id="LOCAL-00001" summary="second commit: fixing">
       <created>1655316456836</created>
@@ -328,11 +338,18 @@
       <option name="project" value="LOCAL" />
       <updated>1655349297840</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="function validateSnils: validate a data (Compare the control number with the two lower digits of the SNILS. If they are equal: return correct result)">
+      <created>1655349424061</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1655349424061</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6140000" />
+    <option name="totallyTimeSpent" value="6444000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -437,7 +454,8 @@
     <MESSAGE value="function validateSnils: validate a data (length of an input data is 11 number of characters)" />
     <MESSAGE value="function validateSnils: validate a data (a sum of digits SNILS for check number)" />
     <MESSAGE value="function validateSnils: validate a data (if &lt; 100: control number is equal to this sum; if = 100: control number is 0;if &gt; 100: calculate the remainder of the division by 101:if = 100: 0; otherwise: calculated remainder of the division.)" />
-    <option name="LAST_COMMIT_MESSAGE" value="function validateSnils: validate a data (if &lt; 100: control number is equal to this sum; if = 100: control number is 0;if &gt; 100: calculate the remainder of the division by 101:if = 100: 0; otherwise: calculated remainder of the division.)" />
+    <MESSAGE value="function validateSnils: validate a data (Compare the control number with the two lower digits of the SNILS. If they are equal: return correct result)" />
+    <option name="LAST_COMMIT_MESSAGE" value="function validateSnils: validate a data (Compare the control number with the two lower digits of the SNILS. If they are equal: return correct result)" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/data-validation-tests.html">
@@ -472,9 +490,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/validator_snils_.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/data_validation_snils.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -484,8 +499,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/validator_snils.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="204">
+          <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/validator_snils_.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1343">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
